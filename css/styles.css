@@ -1,0 +1,79 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #444444;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+#destination-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #ffffff;
+  filter: grayscale(100%);
+}
+
+#div-list {
+  max-width: 450px;
+  margin: 25px auto;
+  text-align: left;
+}
+
+.item-row {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.item-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.item-row label {
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ffffff;
+  margin: 25px auto;
+  width: 80%;
+}
+
+.tally-wrapper {
+  text-align: center;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+#tally {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  padding: 2px 10px;
+  font-style: normal;
+  border-radius: 2px;
+}
